@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:projeto_mobile/screens/login_page.dart';
+import 'package:projeto_mobile/settings/routes.dart';
 import 'screens/menu_page.dart';
 
 void main() {
@@ -14,7 +16,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.purple,
       ),
-      home: MenuPage(),
+      initialRoute: AppRoutes.login,
+      routes : AppRoutes.routes,
     );
   }
 }
