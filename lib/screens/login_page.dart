@@ -85,6 +85,7 @@ class _LoginPageState extends State<LoginPage> {
                       return null;
                     },
                     controller: _passwordController,
+                    obscureText: true,
                     onChanged: (value) {},
                     decoration: InputDecoration(
                         labelText: 'Senha',

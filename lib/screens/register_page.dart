@@ -101,6 +101,7 @@ class _RegisterPageState extends State<RegisterPage> {
                       return null;
                     },
                     controller: _passwordController,
+                    obscureText: true,
                     decoration: InputDecoration(
                       labelText: 'Senha',
                       labelStyle: AppFonts.boldRegular.copyWith(color: AppColors.greyColor),
@@ -111,7 +112,6 @@ class _RegisterPageState extends State<RegisterPage> {
                         borderSide: BorderSide(color: AppColors.greyColor),
                       ),
                     ),
-                    obscureText: true,
                   ),
                   const SizedBox(height: 20),
                   Row(
